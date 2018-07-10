@@ -1,0 +1,32 @@
+{
+  "name": "react-simple-tooltip",
+  "version": "0.0.1",
+  "description": "Lightweight react tooltip",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "react": "^15.5.4",
+    "style-loader": "^0.21.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Sree Krishna Raja K",
+    "email": "sreekrishnaraja@yahoo.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
