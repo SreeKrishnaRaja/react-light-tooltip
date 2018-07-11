@@ -1,8 +1,8 @@
 {
-  "name": "react-simple-tooltip",
-  "version": "0.0.1",
-  "description": "Lightweight react tooltip",
-  "main": "build/index.js",
+  "name": "react-light-tooltip",
+  "version": "0.0.3",
+  "description": "A Lightweight tooltip for React JS",
+  "main": "lib/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
   },
@@ -19,8 +19,10 @@
   },
   "author": {
     "name": "Sree Krishna Raja K",
-    "email": "sreekrishnaraja@yahoo.com"
+    "email": "sreekrishnaraja@yahoo.com",
+    "github-profile": "https://github.com/sreekrishnaraja"
   },
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
