@@ -1,5 +1,5 @@
 # react-light-tooltip
-A lightweight tooltip for React Js
+A lightweight tooltip for React Js.
 
 ### Install react-light-tooltip
 
@@ -29,14 +29,26 @@ export default class Homepage extends React.PureComponent {
 }
 ```
 ### Dynamically disable Tooltip
-Use disabled flag to dynamically disable tooltip in runtime.
+Use disabled flag to dynamically disable tooltip in runtime. By default the position is set "up".
+
+```
+<Tooltip
+  parent={<button>Hover here!</button>}
+  tooltip="Tooltip appears!"
+  position="down"
+  disabled={true}
+/>
+```
+
+### Adjust length of tooltip
+Use length flag to adjust tooltip length. By default the length is set "small".
 
 ```
 <Tooltip
   parent={<button>Hover here!</button>}
   tooltip="Tooltip appears!"
   position="up"
-  disabled={true}
+  length="small"
 />
 ```
 
@@ -68,10 +80,16 @@ You can use Html special characters, emojis or third party fonts like "Font awes
 
 ### Inputs for create-react-Tooltip
 
-**parent** - React elements, text.
-**tooltip** - text, glyph, emoji, icon.
-**position** - up, down, right, left, up-right, up-left, down-right, down-left.
-**disabled** - boolean (true, false).
+- **parent** - React elements, text.
+- **tooltip** - text, glyph, emoji, icon.
+- **position** - up, down, right, left, up-right, up-left, down-right, down-left.
+- **disabled** - boolean (true, false).
+- **length** - small, medium, large, xlarge, fit.
+
+### Contribution guidelines
+
+1. Clone the project.
+2. Make a pull request.
 
 ## Credits
 
