@@ -12,7 +12,7 @@ export default function Tooltip(props) {
   return React.createElement(
     parent.type,
     props.disabled ? { ...parent.props } : { ...parentProps },
-    { ...parent.props.children }
+    parent.props.children,
   );
 }
 
